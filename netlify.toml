@@ -1,0 +1,6 @@
+[build]
+  command = "ng build"
+  publish = "dist/angular-jamstack-blog"
+
+[[plugins]]
+  package = "netlify-plugin-chromium"
